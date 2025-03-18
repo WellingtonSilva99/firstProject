@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f0ea;
+    color: #798252;
+    font-family: "roboto condensed", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #331f19;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    color: #86940a;
+    font-size: 1.3rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #945b10;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #945b10;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #945b10;
+}
+
+select {
+    cursor: pointer;
+    background-color: transparent;
+    color: #86940a;
+    border-radius: 10px;
+    border: 2px solid #945b10;
+}
+
+img {
+    width: 5rem;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;   
+}
+
+th {
+    background-color: #798252;
+    color: #331f19;
+    padding: 1rem;
+}
+td {
+    color: #331f19;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #331f19;
+    color: #86940a;
+}
+
+details {
+    background-color: #798252;
+    color: #331f19;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331f19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem; 
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #945b10;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331f19;
+    padding: 0 0.5rem; 
+}
+
+textarea {
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #945b10;
+}
+
+button {
+    background-color: #798252;
+    border: none;
+    padding: 0.5rem;
+    color: #331f19;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #331f19;
+    padding: 2rem;
+    text-align: center;
+}
+.paragrafo-footer {
+    color: #f4f0ea;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #798252;
+}
